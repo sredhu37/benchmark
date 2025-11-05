@@ -1,0 +1,16 @@
+# Example terraform.tfvars file
+# Copy this file to terraform.tfvars and fill in your values
+
+project_id = "your-gcp-project-id"
+region     = "us-central1"
+
+# Docker images in Google Container Registry
+frontend_image = "gcr.io/your-gcp-project-id/benchmark-frontend:latest"
+backend_image  = "gcr.io/your-gcp-project-id/benchmark-backend:latest"
+
+# CORS origin (set to your frontend URL after first deployment)
+cors_origin = "*"
+
+# Auto-scaling configuration
+min_instances = 0
+max_instances = 10
