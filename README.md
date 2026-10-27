@@ -1,5 +1,7 @@
 # Multi-Region Website Performance Benchmark
 
+[![Buy me a coffee on Ko-fi](https://img.shields.io/badge/Buy%20me%20a%20coffee-Ko--fi-FF5E5B?logo=kofi&logoColor=white)](https://ko-fi.com/sunnyredhu)
+
 A full-stack application that benchmarks website performance across **Asia, Europe, and US** regions. Compare up to 5 URLs and measure availability, P99/P95/P50 latency in real-time.
 
 **Perfect for 1-2 minute demos during interviews!**
